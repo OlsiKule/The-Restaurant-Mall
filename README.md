@@ -1,6 +1,6 @@
 # The-Restaurant-Mall
 Converting a design into a multi-page, functional, responsive website with the following guidelines:
-    
+
     Site is responsive (down to 320px) and uses media queries
     Flexbox and a wrapper is used
     Sass variables are used
@@ -12,4 +12,5 @@ Converting a design into a multi-page, functional, responsive website with the f
     Project represents the provided design well
     Navigation should link to other pages made for the project
     Site is live on Netlify
+
 
