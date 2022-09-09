@@ -1,8 +1,10 @@
 # The-Restaurant-Mall
 Converting a design into a multi-page, functional, responsive website with the following guidelines:
 
-  Site is responsive (down to 320px) and uses media queries
+  Site is responsive (down to 320px) and uses media queries 
+  
   Flexbox and a wrapper is used
+  
   Sass variables are used
   Site is accessible (i.e. form labels are implemented properly, images have alt text etc.)
   Mobile view provides good user experience
