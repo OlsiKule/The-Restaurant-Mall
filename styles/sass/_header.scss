@@ -1,0 +1,20 @@
+/* _header.scss */
+.wrapper{
+    max-width: 1260px;
+    width: 90%;
+    margin: 0 auto;
+  } 
+
+header  {
+    background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/home-header.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    .shwarma {
+        position: absolute;
+        bottom: -180px;
+        right: -0;
+        
+    }
+}
+
