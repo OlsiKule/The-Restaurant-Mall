@@ -9,6 +9,14 @@
   margin-top: 40px;
   color: #ffffff;
 }
+.navBar ul li a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffd300;
+          text-decoration-color: #ffd300;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
+
 /* _header.scss */
 .wrapper {
   max-width: 1260px;
@@ -37,6 +45,7 @@ body {
   font-family: "Josefin sans";
   font-size: 1rem;
   color: #ffd300;
+  background-color: #2b331b;
 }
 
 h1, h2, h3, h4, blockquote {

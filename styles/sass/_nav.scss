@@ -1,5 +1,5 @@
 /* _nav.scss */
-@use "./variable";
+// @use "./variable";
 
 .navBar {
     ul {
@@ -10,14 +10,22 @@
         li {
             padding: 20px;
             margin-top: 40px;
+            // text-decoration: none;
             color: #ffffff;
             // background-color:#ffffff;      
             
             a {
-                border: 2px $primaryColour solid;
-                // font-family: "Josefin sans";
-                
-            }
+                // padding: 2px;
+                // border: 2px red solid;
+                // text-decoration: underline;
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #ffd300;
+                    text-decoration-thickness: 3px;
+                    text-underline-position: under;
+                    // the underline could also be done with border bottom
+                } 
+             }
         }
     }
 }
