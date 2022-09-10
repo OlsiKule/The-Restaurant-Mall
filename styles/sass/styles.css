@@ -15,6 +15,7 @@
           text-decoration-color: #ffd300;
   text-decoration-thickness: 3px;
   text-underline-position: under;
+  text-underline-offset: 4px;
 }
 
 /* _header.scss */
@@ -35,6 +36,21 @@ header .shawarma {
   bottom: -180px;
   right: 0;
 }
+header .logo {
+  width: 90%;
+  border: 2px blue solid;
+  text-align: left;
+  margin-top: 40px;
+}
+header .logo h1 {
+  max-width: 40%;
+  line-height: 4.5rem;
+}
+header .logo h1 span {
+  background-color: white;
+  color: #0f0f0f;
+  border: 2px yellow solid;
+}
 
 /* _footer.scss */ /* _typography.scss */
 html {
@@ -51,12 +67,14 @@ body {
 h1, h2, h3, h4, blockquote {
   font-family: "Josefin sans";
   font-weight: normal;
-  color: #ffd300;
+  color: #ffffff;
   margin: 0;
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  border: 2px red solid;
 }
 
 h2 {
@@ -122,6 +140,19 @@ a {
 
 .headerBlog {
   background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/blog-header.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* _headerBlog.scss */
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headerContact {
+  background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/contact-header.jpg);
   background-size: cover;
   height: 100vh;
 }/*# sourceMappingURL=styles.css.map */

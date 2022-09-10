@@ -17,12 +17,15 @@ html {
 h1, h2, h3, h4, blockquote {
     font-family: "Josefin sans";
     font-weight: normal;
-    color: $primaryColour;
+    color: $whiteColour;
     margin: 0;
   }
   
   h1 {
-    font-size: 1.4rem;
+    font-size: 3.5rem;
+    // line-height: 5rem;
+    text-transform: uppercase;
+    border: 2px red solid;
   }
   
   h2 {
