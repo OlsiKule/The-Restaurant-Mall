@@ -11,7 +11,13 @@
             padding: 20px;
             margin-top: 40px;
             color: #ffffff;
-            // background-color:#ffffff;             
+            // background-color:#ffffff;      
+            
+            a {
+                border: 2px $primaryColour solid;
+                // font-family: "Josefin sans";
+                
+            }
         }
     }
 }
