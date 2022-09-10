@@ -30,7 +30,7 @@ header {
   position: relative;
   height: 100vh;
 }
-header .shwarma {
+header .shawarma {
   position: absolute;
   bottom: -180px;
   right: 0;
@@ -113,4 +113,15 @@ a {
   transition: 0.3s;
 }
 
-/* _mediaQueries.scss *//*# sourceMappingURL=styles.css.map */
+/* _mediaQueries.scss */ /* _headerBlog.scss */
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headerBlog {
+  background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/blog-header.jpg);
+  background-size: cover;
+  height: 100vh;
+}/*# sourceMappingURL=styles.css.map */
