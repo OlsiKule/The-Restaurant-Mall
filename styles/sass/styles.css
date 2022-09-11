@@ -233,7 +233,88 @@ a {
 }/*# sourceMappingURL=styles.css.map */
 
 .menuItems {
-  background-color: #171b0e;
-  
-  border: 2px red solid;
+  max-width: 100%;
+  background-color: #171b0e;  
+  display: block;
 }
+
+.menuItems h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.burgerSection, 
+.newSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  position: relative;
+}
+
+.burgerSection img,
+.burgers, 
+.new,
+.newSection img  {
+  max-width: 42%;
+  /* border: 2px cyan solid; */
+}
+
+.burgers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center; 
+  text-align: right; 
+}
+
+.burgers p {
+  padding-right: 25%;
+}
+.new p {
+  padding-left: 25%;
+}
+
+.burgerSection img { 
+  box-shadow: #ffd300 20px 20px;
+  position: relative;
+  bottom: 50px;
+}
+
+/* !!! the box shadow is a little lower in the design 
+work on that if you have time in the end */
+
+.newSection img {
+  box-shadow: #ffd300 -20px 20px;
+  position: relative;
+  bottom: -50px;
+}
+
+.menuItems button {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Josefin sans";
+  background-color: #ffd300;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  transition: 0.3s ease;
+}
+
+.menuItems button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* ******************** */
+/* 3rd section of main */
+/* ******************* */
+
