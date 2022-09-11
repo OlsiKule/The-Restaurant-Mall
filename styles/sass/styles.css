@@ -38,7 +38,6 @@ header .shawarma {
 }
 header .logo {
   width: 90%;
-  border: 2px blue solid;
   text-align: left;
   margin-top: 40px;
 }
@@ -49,7 +48,6 @@ header .logo h1 {
 header .logo h1 span {
   background-color: white;
   color: #0f0f0f;
-  border: 2px yellow solid;
 }
 
 /* _footer.scss */ /* _typography.scss */
@@ -64,7 +62,7 @@ body {
   background-color: #2b331b;
 }
 
-h1, h2, h3, h4, blockquote {
+h1, h2, h3, h4, p {
   font-family: "Josefin sans";
   font-weight: normal;
   color: #ffffff;
@@ -74,7 +72,6 @@ h1, h2, h3, h4, blockquote {
 h1 {
   font-size: 3.5rem;
   text-transform: uppercase;
-  border: 2px red solid;
 }
 
 h2 {
@@ -144,7 +141,7 @@ a {
   height: 100vh;
 }
 
-/* _headerBlog.scss */
+/* _headerContact.scss */
 .wrapper {
   max-width: 1260px;
   width: 90%;
@@ -155,4 +152,29 @@ a {
   background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/contact-header.jpg);
   background-size: cover;
   height: 100vh;
+}
+
+/* _mainIndex.scss */
+.info {
+  border: 2px red solid;
+  height: 110vh;
+  display: flex;
+  justify-content: right;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.info .items {
+  border: 2px blue solid;
+  margin: 20px 0px 0px 80px;
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+}
+.info .items h2 {
+  text-transform: uppercase;
+}
+.info .itemOne, .info .itemTwo {
+  border: 2px yellow solid;
+  align-self: end;
+  padding: 0 0 20px 0;
 }/*# sourceMappingURL=styles.css.map */

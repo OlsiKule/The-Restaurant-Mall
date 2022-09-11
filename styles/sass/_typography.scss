@@ -14,7 +14,7 @@ html {
     background-color: $pineColour;
 }
 
-h1, h2, h3, h4, blockquote {
+h1, h2, h3, h4, p {
     font-family: "Josefin sans";
     font-weight: normal;
     color: $whiteColour;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, blockquote {
     font-size: 3.5rem;
     // line-height: 5rem;
     text-transform: uppercase;
-    border: 2px red solid;
+    // border: 2px red solid;
   }
   
   h2 {

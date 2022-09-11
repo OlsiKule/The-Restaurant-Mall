@@ -1,0 +1,30 @@
+/* _mainIndex.scss */
+
+  .info {
+    border: 2px red solid;
+    height: 110vh;
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    flex-wrap: wrap;
+    // width: 100%;
+    .items {
+        border: 2px blue solid;
+        margin: 20px 0px 0px 80px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        // align-self: end;
+        
+        h2 {
+            text-transform: uppercase;
+            }
+        }
+        .itemOne, .itemTwo{
+            border: 2px yellow solid;
+            align-self: end;
+            padding: 0 0 20px 0;
+        }
+    
+    
+}
