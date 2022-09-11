@@ -318,3 +318,28 @@ work on that if you have time in the end */
 /* 3rd section of main */
 /* ******************* */
 
+.win {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.giftCart {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  border: 2px blueviolet solid;
+}
+
+.bgrImage {
+  border: 2px red solid;
+  background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/banner.jpg);
+  background-size: cover;
+  height: 55vh;
+  margin-top: 100px;
+  width: 100%;
+}
