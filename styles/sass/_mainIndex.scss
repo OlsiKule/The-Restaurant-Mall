@@ -1,7 +1,8 @@
 /* _mainIndex.scss */
+@use "./variable" as *;
 
   .info {
-    border: 2px red solid;
+    // border: 2px red solid;
     height: 110vh;
     display: flex;
     justify-content: right;
@@ -9,7 +10,7 @@
     flex-wrap: wrap;
     // width: 100%;
     .items {
-        border: 2px blue solid;
+        // border: 2px blue solid;
         margin: 20px 0px 0px 80px;
         width: 43%;
         display: flex;
@@ -20,11 +21,65 @@
             text-transform: uppercase;
             }
         }
-        .itemOne, .itemTwo{
-            border: 2px yellow solid;
+     .itemOne, .itemTwo {
+            // border: 2px yellow solid;
             align-self: end;
             padding: 0 0 20px 0;
         }
-    
-    
+        .location {
+            display: flex;
+            position: relative;
+            .locationIcon {
+                height: 25px;
+                width: 25px;
+                background-color: $primaryColour;
+                border-radius: 50%;
+                padding: 10px 10px 10px 10px;
+                position: absolute;
+                top: 0;
+                left: -60px;
+            }
+        }
+        .community {
+            display: flex;
+            position: relative;
+            .communityIcon {
+                height: 25px;
+                width: 25px;
+                background-color: $primaryColour;
+                border-radius: 50%;
+                padding: 10px 10px 10px 10px;
+                position: absolute;
+                top: 0;
+                left: -60px;
+            }
+        }
+        .blog {
+            display: flex;
+            position: relative;
+            .blogIcon {
+                height: 25px;
+                width: 25px;
+                background-color: $primaryColour;
+                border-radius: 50%;
+                padding: 10px 10px 10px 10px;
+                position: absolute;
+                top: 0;
+                left: -60px;
+            }
+        }
+        .getInTouch {
+            display: flex;
+            position: relative;
+            .getInTouchIcon {
+                height: 25px;
+                width: 25px;
+                background-color: $primaryColour;
+                border-radius: 50%;
+                padding: 10px 10px 10px 10px;
+                position: absolute;
+                top: 0;
+                left: -60px;
+            }
+        }   
 }
