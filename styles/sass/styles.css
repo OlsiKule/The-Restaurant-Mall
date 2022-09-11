@@ -231,3 +231,9 @@ a {
   top: 0;
   left: -60px;
 }/*# sourceMappingURL=styles.css.map */
+
+.menuItems {
+  background-color: #171b0e;
+  
+  border: 2px red solid;
+}
