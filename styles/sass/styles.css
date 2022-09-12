@@ -257,7 +257,6 @@ a {
 .new,
 .newSection img  {
   max-width: 42%;
-  /* border: 2px cyan solid; */
 }
 
 .burgers {
@@ -339,7 +338,6 @@ work on that if you have time in the end */
   justify-content: center;
   align-items: center;
   max-width: 80%;
-  border: 2px blueviolet solid;
 }
 
 .win button {
@@ -379,10 +377,11 @@ work on that if you have time in the end */
   height: 290px;
   max-width: 30%;
   box-shadow: #ffd300 -20px 20px;
+  /* border: 2px blueviolet solid; */
   }
-
+  
   .spaces {
     max-width: 65%;
   }
 
-/* !!! can adjust h3 to line up with picture ; use flexbox  */
+  /* !!! can adjust h3 to line up with picture ; use flexbox  */
