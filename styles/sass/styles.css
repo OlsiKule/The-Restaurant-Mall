@@ -357,7 +357,6 @@ work on that if you have time in the end */
 }
 
 .bgrImage {
-  border: 2px red solid;
   background-image: url(../../the-restaurant-mall-assets/the-restaurant-mall-assets/banner.jpg);
   background-size: cover;
   height: 55vh;
@@ -385,3 +384,31 @@ work on that if you have time in the end */
   }
 
   /* !!! can adjust h3 to line up with picture ; use flexbox  */
+
+
+  /* ****** */
+  /* footer */
+  /* ****** */
+
+.gallery {
+  /* direction: row; */
+  max-width: 100%;
+  background-color: #171b0e;
+  display: block;
+}
+
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery li {
+  flex-basis: 31%;
+}
+
+.gallery img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
