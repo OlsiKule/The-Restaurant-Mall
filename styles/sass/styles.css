@@ -412,3 +412,9 @@ work on that if you have time in the end */
   display: block;
   height: auto;
 }
+ 
+.gallery p {
+  background-color: #0f0f0f;
+  margin: 50px auto;
+  text-align: center;
+}
