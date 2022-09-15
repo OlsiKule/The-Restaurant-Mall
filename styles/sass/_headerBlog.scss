@@ -7,8 +7,9 @@
 
 .headerBlog  {
     background-image: url(../the-restaurant-mall-assets/blog-header.jpg);
-    background-size: cover;
+    background-size: contain;
+    // border: 2px red solid;
     // height: 80vh;
-
-}
-
+    
+  }
+  

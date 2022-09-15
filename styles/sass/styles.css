@@ -386,42 +386,42 @@ work on that if you have time in the end */
 
   /* !!! can adjust h3 to line up with picture ; use flexbox  */
 
-
-  /* ****** */
-  /* footer */
-  /* ****** */
-
-.gallery {
-  max-width: 100%;
-  background-color: #171b0e;  
-  /* display: block; */
-  height: 70vh;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}
-
-.gallery ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.gallery li {
-  flex-basis: 31%;
-}
-
-.gallery img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
- 
-.gallery p {
-  background-color: #0f0f0f;
-  padding: 50px auto;
-  text-align: center;
-}
+  
+  .gallery {
+    max-width: 100%;
+    background-color: #171b0e;  
+    /* display: block; */
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gallery li {
+    flex-basis: 31%;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .gallery p {
+    background-color: #0f0f0f;
+    padding: 50px auto;
+    text-align: center;
+  }
+  
+    /* ****** */
+    /* footer */
+    /* ****** */
 
 .footer p {
   background-color: #0f0f0f;
@@ -430,3 +430,42 @@ align-items: center;
   line-height: 60px;
   margin: 0%;
 }
+
+
+
+
+
+/* ********** */
+/* blog  page */
+/* ********** */
+
+.blogMain {
+  border: 2px yellow solid;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imageBlogForm {
+  border: 2px red solid;
+  width: 60%;
+}
+
+.featured {
+  border: 2px blue solid;
+  width: 30%;
+}
+
+.imgEmplnt img{
+  max-width: 100%;
+  border: 2px cyan solid;
+  position: relative;
+  top: -160px;
+  right: 0%;
+}
+
+
+
+
+
