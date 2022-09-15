@@ -309,8 +309,9 @@ work on that if you have time in the end */
 }
 
 .menuItems button:hover {
-  background-color: #ffffff;
+  background-color: #2b331b;
   transform: scale(1.05);
+  color: #ffd300;
 }
 
 /* ******************** */
@@ -391,17 +392,19 @@ work on that if you have time in the end */
   /* ****** */
 
 .gallery {
-  /* direction: row; */
   max-width: 100%;
-  background-color: #171b0e;
-  display: block;
+  background-color: #171b0e;  
+  /* display: block; */
+  height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 .gallery ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  height: 50vh;
 }
 
 .gallery li {
@@ -420,8 +423,10 @@ work on that if you have time in the end */
   text-align: center;
 }
 
-footer p {
+.footer p {
   background-color: #0f0f0f;
-  padding: 50px auto;
+  /* padding: 50px auto; */
   text-align: center;
+  line-height: 60px;
+  margin: 0%;
 }
