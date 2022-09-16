@@ -465,6 +465,7 @@ work on that if you have time in the end */
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 70px;
 }
 
 .featured {
@@ -482,8 +483,8 @@ work on that if you have time in the end */
 
 .blog {
   width: 80%;
-  margin-top: -70px;
-  margin-bottom: 100px;
+  /* margin-top: -70px;
+  margin-bottom: 100px; */
 }
 
 .blog h2 {
@@ -491,7 +492,8 @@ work on that if you have time in the end */
   color: #ffd300;
 }
 
-.blog h4 {
+.blog h4, 
+.comments h4 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -512,10 +514,59 @@ work on that if you have time in the end */
   border: 2px greenyellow solid;  
   width: 80%;
   margin-top: 80px;
-  /* margin-bottom: 100px; */
 }
 
 .feedback {
-  border: 2px paleturquoise solid;  
-
+  border: 2px paleturquoise solid; 
 }
+
+.comments li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem auto 0 auto;
+}
+
+.comments ul {
+  display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.comments li img {
+  width: 10%;
+border: 2px blueviolet solid;
+height: auto;
+display: flex;
+align-self: start;
+  }
+
+
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    max-width: 83%;
+  }
+
+  .comments h2 {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+  }
+
+  .comments h4 { 
+    color: #ffd300;
+    margin: 0;
+  }
+
+  .blogMain p {
+    font-size: 0.90rem;
+    line-height: 1.25rem;
+  }
+
+
+
+  /* **** */
+  /* Form */
+  /* **** */
+
+  
