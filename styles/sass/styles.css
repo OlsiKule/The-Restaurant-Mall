@@ -42,12 +42,18 @@ header .logo {
   margin-top: 40px;
 }
 header .logo h1 {
-  max-width: 40%;
+  max-width: 38%;
   line-height: 4.5rem;
 }
 header .logo h1 span {
   background-color: white;
   color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+
 }
 
 /* _footer.scss */ /* _typography.scss */
@@ -452,7 +458,7 @@ work on that if you have time in the end */
 
 }
 
-.imageBlogForm {
+.imageBlog {
   /* border: yellow; */
   border-left: 5px solid #ffd300;
   border-bottom: 5px solid #ffd300;
@@ -491,6 +497,25 @@ work on that if you have time in the end */
 }
 
 
+/* ************** */
+/* comments & form */
+/* ************** */
 
+.form {
+  border: 2px cyan solid;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.comments {
+  border: 2px greenyellow solid;  
+  width: 80%;
+  margin-top: 80px;
+  /* margin-bottom: 100px; */
+}
 
+.feedback {
+  border: 2px paleturquoise solid;  
+
+}
