@@ -53,7 +53,6 @@ header .logo h1 span {
   padding-left: 0px;
   padding-top: 8px;
   padding-bottom: 0px;
-
 }
 
 /* _footer.scss */ /* _typography.scss */
@@ -459,7 +458,6 @@ work on that if you have time in the end */
 }
 
 .imageBlog {
-  /* border: yellow; */
   border-left: 5px solid #ffd300;
   border-bottom: 5px solid #ffd300;
   display: flex;
@@ -504,21 +502,23 @@ work on that if you have time in the end */
 /* ************** */
 
 .form {
-  border: 2px cyan solid;  
+  /* border: 2px cyan solid;   */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .comments {
-  border: 2px greenyellow solid;  
+  /* border: 2px greenyellow solid;   */
   width: 80%;
   margin-top: 80px;
 }
 
-.feedback {
+/* .feedback {
   border: 2px paleturquoise solid; 
-}
+  margin-top: 0;
+  padding-top: 0;
+} */
 
 .comments li {
   display: flex;
@@ -535,7 +535,6 @@ flex-direction: column;
 
 .comments li img {
   width: 10%;
-border: 2px blueviolet solid;
 height: auto;
 display: flex;
 align-self: start;
@@ -569,4 +568,72 @@ align-self: start;
   /* Form */
   /* **** */
 
+  .rightSide form {
+    width: 80%;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nameEmail {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
+  .rightSide input {
+    width: 45%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #ffd300;
+    outline: none;
+    background: transparent;
+    /* display: flex; */
+
+  }
+
+  .rightSide input::placeholder{
+    color: white;
+    opacity: 1;
+  }
+
+  .rightSide textarea {
+    /* border: 2px blue solid;   */
+    width: 100%;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border: 2px solid #ffd300;
+    outline: none;
+    background: transparent;
+  }
+  
+  .rightSide textarea::placeholder {
+    color: white;
+    opacity: 1;    
+  }
+
+.rightSide button {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Josefin sans";
+  background-color: #ffd300;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0 5px;
+  transition: 0.3s ease;
+}
+
+.rightSide button:hover {
+  /* background-color: #2b331b; */
+  transform: scale(0.98);
+  /* color: #ffd300; */
+}
