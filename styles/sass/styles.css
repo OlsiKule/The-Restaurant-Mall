@@ -561,9 +561,10 @@ align-self: start;
 
 
 
-  /* **** */
-  /* Form */
-  /* **** */
+  /* *********** */
+  /* Form on blog*/
+  /* *********** */
+
 
   .rightSide form {
     width: 80%;
@@ -686,3 +687,97 @@ menu li {
   color: white;
 }
 
+
+/* ****************** */
+/* form on contact pg */
+/* ****************** */
+.main {
+  display: flex;
+}
+
+
+.contactForm {
+  /* border: 2px red solid; */
+  max-width: 60%;
+  background-color: #171b0e;
+  box-shadow: #ffd300 20px 20px;
+  /* position: absolute; */
+  position: relative;
+  top: -140px;
+  right: 20px;
+  flex-basis: 63%;
+}
+
+.contactForm form {
+  width: 90%;
+  margin: 80px auto 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameEmail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactForm input {
+  width: 45%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #ffd300;
+  outline: none;
+  background: transparent;
+  /* display: flex; */
+
+}
+
+.contactForm input::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+.contactForm textarea {
+  /* border: 2px blue solid;   */
+  width: 100%;
+  padding: 10px 0;
+  height: 300px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border: 2px solid #ffd300;
+  outline: none;
+  background: transparent;
+}
+
+.contactForm textarea::placeholder {
+  color: white;
+  opacity: 1;    
+}
+
+.contactForm button {
+font-size: 1rem;
+font-weight: 400;
+font-family: "Josefin sans";
+background-color: #ffd300;
+border: none;
+text-transform: uppercase;
+text-align: center;
+padding: 10px 0 5px;
+transition: 0.3s ease;
+}
+
+.contactForm button:hover {
+transform: scale(0.98);
+}
+
+
+.social {
+  flex-basis: 35%;
+border: 2px blue solid;
+}
