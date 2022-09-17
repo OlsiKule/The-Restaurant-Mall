@@ -445,7 +445,7 @@ work on that if you have time in the end */
 /* ********** */
 
 .blogMain {
-  border: 2px red solid;
+  /* border: 2px red solid; */
   max-width: 100%;
   display: flex;
   flex-direction: row;
@@ -466,10 +466,7 @@ work on that if you have time in the end */
   padding-bottom: 70px;
 }
 
-.featured {
-  border: 2px blue solid;
-  width: 30%;
-}
+
 
 .imgEmplnt img{
   box-shadow: #ffd300 -20px 20px;
@@ -633,7 +630,59 @@ align-self: start;
 }
 
 .rightSide button:hover {
-  /* background-color: #2b331b; */
   transform: scale(0.98);
-  /* color: #ffd300; */
 }
+
+/* ********* */
+/* left Side
+of blog page */
+/* ********* */
+
+.leftSide {
+  /* border: 2px blue solid; */
+  width: 30%;
+  position: relative;
+}
+
+.leftSide img {
+  max-width: 94%;
+  position: absolute;
+  top: 100px;
+}
+
+.leftSide .post {
+  max-width: 80%;
+  position: absolute;
+  right: 0;
+  top: 130px;
+  /* border: 2px red solid; */
+  padding-top: 84%;
+  background-color: #171b0e;
+  z-index: -1;
+}
+
+.feature {
+  max-width: 90%;
+  margin: 10px 30px;
+}
+
+.feature h3 {
+  color:  #ffd300;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+  margin-bottom: 0;
+}
+
+.feature p {
+  padding: 0 0 20px 0px;
+}
+
+menu {
+  padding-left: 0;
+  margin: -5px 14px 20px;
+}
+
+menu li {
+  color: white;
+}
+
