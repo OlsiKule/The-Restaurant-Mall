@@ -31,10 +31,12 @@ header {
   position: relative;
   height: 100vh;
 }
-header .shawarma {
+header img {
+  /* border: 2px blue solid; */
   position: absolute;
   bottom: -180px;
   right: 0;
+  max-width: 50%;
 }
 header .logo {
   width: 90%;
@@ -125,6 +127,7 @@ ul, li, a, input {
 ul {
   list-style: none;
 }
+
 
 a {
   text-decoration: none;
@@ -445,7 +448,6 @@ work on that if you have time in the end */
 /* ********** */
 
 .blogMain {
-  /* border: 2px red solid; */
   max-width: 100%;
   display: flex;
   flex-direction: row;
@@ -454,7 +456,6 @@ work on that if you have time in the end */
 
 .rightSide {
   width: 60%;
-
 }
 
 .imageBlog {
@@ -499,23 +500,16 @@ work on that if you have time in the end */
 /* ************** */
 
 .form {
-  /* border: 2px cyan solid;   */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .comments {
-  /* border: 2px greenyellow solid;   */
   width: 80%;
   margin-top: 80px;
 }
 
-/* .feedback {
-  border: 2px paleturquoise solid; 
-  margin-top: 0;
-  padding-top: 0;
-} */
 
 .comments li {
   display: flex;
@@ -590,8 +584,6 @@ align-self: start;
     border-bottom: 2px solid #ffd300;
     outline: none;
     background: transparent;
-    /* display: flex; */
-
   }
 
   .rightSide input::placeholder{
@@ -600,7 +592,6 @@ align-self: start;
   }
 
   .rightSide textarea {
-    /* border: 2px blue solid;   */
     width: 100%;
     padding: 10px 0;
     height: 150px;
@@ -818,4 +809,25 @@ margin: 25% 0 0 23%;
   margin: 1rem 0 1.5rem;
 }
 
+
+
+
+/* ***************** */
+/* responsive design */
+/* ***************** */
+
+/* tablet devices */
+@media (max-width: 768px) {
+
+
+
+}
+
+
+
+
+
+/* mobile phones */
+/* @media (max-width: 480px) {
+} */
 
