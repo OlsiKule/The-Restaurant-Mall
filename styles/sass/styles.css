@@ -775,7 +775,7 @@ transform: scale(0.98);
 
 .socialIcons {
   max-width: 65%;
-  /* border: 2px red solid; */
+  border: 2px red solid;
   /* flex-basis: 35%; */
   display: inline-flex;
 margin: 25% 0 0 23%;
