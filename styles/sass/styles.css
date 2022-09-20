@@ -16,6 +16,7 @@
   text-decoration-thickness: 3px;
   text-underline-position: under;
   text-underline-offset: 4px;
+  /* transform: scale(1.15); */
 }
 
 /* _header.scss */
@@ -31,13 +32,17 @@ header {
   position: relative;
   height: 100vh;
 }
-/* header img {
-  border: 2px blue solid;
+.shawarma{
+  /* border: 2px blue solid; */
   position: absolute;
   bottom: -180px;
   right: 0;
   max-width: 50%;
-} */
+}
+.shawarma img{
+  position: relative;
+  max-width: 100%;
+}
 header .logo {
   width: 90%;
   text-align: left;
@@ -56,6 +61,20 @@ header .logo h1 span {
   padding-top: 8px;
   padding-bottom: 0px;
 }
+.hamburger {
+  display: none;
+  /* cursor: pointer; */
+}
+.bar {
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 7px auto; 
+  /* -webkit-transition: all 0.3s ease-out; */
+  /* transition: all 0.3s ease-out; */
+  background-color: white;
+}
+
 
 /* _footer.scss */ /* _typography.scss */
 html {
@@ -163,13 +182,7 @@ a {
 }
 
 /* _mainIndex.scss */
-.shawarma{
-  border: 2px blue solid;
-  position: absolute;
-  bottom: -180px;
-  right: 0;
-  max-width: 50%;
-}
+
 
 .info {
   min-height: 800px;
@@ -332,9 +345,9 @@ work on that if you have time in the end */
 }
 
 .menuItems button:hover {
-  background-color: #2b331b;
-  transform: scale(1.05);
-  color: #ffd300;
+  /* background-color: #2b331b; */
+  transform: scale(1.15);
+  /* color: #ffd300; */
 }
 
 /* ******************** */
@@ -790,7 +803,7 @@ transform: scale(0.98);
 
 .socialIcons {
   max-width: 65%;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   /* flex-basis: 35%; */
   display: inline-flex;
 margin: 25% 0 0 23%;
@@ -831,18 +844,55 @@ margin: 25% 0 0 23%;
 /* responsive design */
 /* ***************** */
 
-/* tablet devices */
-@media (max-width: 768px) {
-
+/* smaller size PC's */
+@media (max-width: 960px) {
+  .info h2 {
+    font-size: 1.25rem;
+    line-height: 1rem;
+    margin-bottom: 5px;
+    /* padding-top: 30px; */
+  }
+  .info p {
+    line-height: 1.2rem;
+    margin: 0 0 30px 0;
+    font-size: 1rem;
+  }
 
 
 }
 
 
 
+/* tablet devices */
+@media (max-width: 768px) {
+  .info p {
+    line-height: 1.2rem;
+    margin: 0 0 30px 0;
+    font-size: 0.85rem;
+  }
+  .shawarma img{
+    visibility: hidden;
+  }
+  .navBar {
+      visibility: hidden;
+    }
+    .hamburger {
+      display: block;
+      margin: 10px auto;
+      position: absolute;
+      top: 40px;
+      right: 43px;  
+  }
+
+}
+
+
 
 
 /* mobile phones */
-/* @media (max-width: 480px) {
-} */
+ @media (max-width: 480px) { 
+  .itemTwo, .itemFour{
+    display: none;
+  }
+}
 
